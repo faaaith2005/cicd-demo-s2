@@ -4,8 +4,10 @@ on:
     branches: [main]
   push:
     branches: [main]
+
 permissions:
   contents: read
+
 jobs:
   verifier:
     runs-on: ubuntu-latest
